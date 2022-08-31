@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: delete
+    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/cl7h7618q000a14o1guabw90p/sprite?access_token=<MAPBOX_ACCESS_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mapboxkit 0.0.1.alpha
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Mon, 28 Nov 2022 04:58:09 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Link
+      X-Origin:
+      - mbx-styles
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"33-zTOHcrdI8u15cWzPv1X7i/WNVS4"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Error from cloudfront
+      Via:
+      - 1.1 c06217136cfe1ebed8d7ae224ad8c8ee.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - KIX50-P2
+      X-Amz-Cf-Id:
+      - CLLrWjMbKtayv5D0bUDBCJMA4-S15NrusP35eKHETiNca2CHEPaFzw==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":"Body must be an array of image names."}'
+  recorded_at: Mon, 28 Nov 2022 04:58:09 GMT
+recorded_with: VCR 6.1.0

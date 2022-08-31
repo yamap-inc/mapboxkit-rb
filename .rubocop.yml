@@ -1,0 +1,19 @@
+require:
+  - rubocop-rake
+  - rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 3.1
+  NewCops: enable
+
+Layout/HashAlignment:
+  EnforcedHashRocketStyle: table
+
+Layout/LineLength:
+  Max: 120
+
+RSpec/ExampleLength:
+  Max: 14
+
+RSpec/MultipleExpectations:
+  Max: 4

@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>?access_token=<MAPBOX_ACCESS_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mapboxkit 0.0.1.alpha
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 31 Aug 2022 06:08:45 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Link
+      X-Origin:
+      - mbx-styles
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - DENY
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin
+      Cache-Control:
+      - max-age=900
+      Etag:
+      - W/"2e0-hYT+m9QCIOI5gn4o1Jifupj1vuA"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 58ef75a5fdb60c073729be8392b4c628.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - NRT51-C4
+      X-Amz-Cf-Id:
+      - c-HattifEEyfrmIMjeXUFZLXRRnW9PY9Y0aRp3FWre40FJhGgYvLeQ==
+      Age:
+      - '112'
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"version":8,"zoom":2,"created":"2022-08-31T05:48:42.137Z","visibility":"private","owner":"<MAPBOX_USERNAME>","sources":{"composite":{"url":"mapbox://mapbox.mapbox-streets-v8,mapbox.mapbox-terrain-v2,mapbox.mapbox-bathymetry-v2","type":"vector"}},"id":"cl7h76sxp000715pkomashqt9","name":"Streets","modified":"2022-08-31T05:48:46.089Z","protected":false,"center":[0,20]},{"version":8,"zoom":2,"created":"2022-08-31T05:48:06.254Z","visibility":"public","owner":"<MAPBOX_USERNAME>","sources":{"composite":{"url":"mapbox://mapbox.mapbox-streets-v8,mapbox.mapbox-terrain-v2,mapbox.mapbox-bathymetry-v2","type":"vector"}},"id":"cl7h7618q000a14o1guabw90p","name":"Basic","modified":"2022-08-31T06:04:59.848Z","protected":false,"center":[0,20]}]'
+  recorded_at: Wed, 31 Aug 2022 06:10:37 GMT
+recorded_with: VCR 6.1.0
