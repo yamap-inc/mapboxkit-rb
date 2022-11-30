@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/cl7h7618q000a14o1guabw90p/wmts?access_token=<MAPBOX_ACCESS_TOKEN>
+    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/clb1jxblw000014tbwhfjxy31/wmts?access_token=<MAPBOX_ACCESS_TOKEN>
     body:
       encoding: US-ASCII
       string: ''
@@ -21,11 +21,11 @@ http_interactions:
       Content-Type:
       - application/xml; charset=utf-8
       Content-Length:
-      - '10315'
+      - '10317'
       Connection:
       - keep-alive
       Date:
-      - Wed, 31 Aug 2022 11:56:53 GMT
+      - Tue, 29 Nov 2022 05:33:08 GMT
       X-Powered-By:
       - Express
       Access-Control-Allow-Origin:
@@ -35,18 +35,259 @@ http_interactions:
       Cache-Control:
       - max-age=43200,s-maxage=43200
       Etag:
-      - W/"284b-E/YhBhysam9VRFLg7S+MEhxJBpE"
+      - W/"284d-56xCJTlBg9VRP80cp6EvoLKNiPg"
       X-Cache:
-      - Miss from cloudfront
+      - Hit from cloudfront
       Via:
-      - 1.1 f424ee0ef15f257fcef58f1083399444.cloudfront.net (CloudFront)
+      - 1.1 fd95d915cb5f672e4b8b3613a0dde9ea.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - NRT51-P1
+      - NRT12-C2
       X-Amz-Cf-Id:
-      - 7TGjhpgnflDH4sTqpKst81JoXfW2MiBm777KMFmZiRC4HJ02zntK2g==
+      - Nw3Ak9fAI3hZF2rqWk0X4WmBkr_yI7Tqrv6y1wJb0aLsNRucWfFNNw==
+      Age:
+      - '10411'
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        PENhcGFiaWxpdGllcyB4bWxucz0iaHR0cDovL3d3dy5vcGVuZ2lzLm5ldC93bXRzLzEuMCIgeG1sbnM6b3dzPSJodHRwOi8vd3d3Lm9wZW5naXMubmV0L293cy8xLjEiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczp4c2k9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIiB4bWxuczpnbWw9Imh0dHA6Ly93d3cub3Blbmdpcy5uZXQvZ21sIiB4c2k6c2NoZW1hTG9jYXRpb249Imh0dHA6Ly93d3cub3Blbmdpcy5uZXQvd210cy8xLjAgaHR0cDovL3NjaGVtYXMub3Blbmdpcy5uZXQvd210cy8xLjAvd210c0dldENhcGFiaWxpdGllc19yZXNwb25zZS54c2QiIHZlcnNpb249IjEuMC4wIj4KICA8b3dzOlNlcnZpY2VJZGVudGlmaWNhdGlvbj4KICA8b3dzOlRpdGxlPk1hcGJveDwvb3dzOlRpdGxlPgogIDxvd3M6U2VydmljZVR5cGU+T0dDIFdNVFM8L293czpTZXJ2aWNlVHlwZT4KICA8b3dzOlNlcnZpY2VUeXBlVmVyc2lvbj4xLjAuMDwvb3dzOlNlcnZpY2VUeXBlVmVyc2lvbj4KPC9vd3M6U2VydmljZUlkZW50aWZpY2F0aW9uPgogIDxvd3M6T3BlcmF0aW9uc01ldGFkYXRhPgogIDxvd3M6T3BlcmF0aW9uIG5hbWU9IkdldENhcGFiaWxpdGllcyI+PG93czpEQ1A+PG93czpIVFRQPjxvd3M6R2V0IHhsaW5rOmhyZWY9Imh0dHBzOi8vYXBpLm1hcGJveC5jb20vc3R5bGVzL3YxLzxNQVBCT1hfVVNFUk5BTUU+L2NsN2g3NjE4cTAwMGExNG8xZ3VhYnc5MHAvd210cz9hY2Nlc3NfdG9rZW49PE1BUEJPWF9BQ0NFU1NfVE9LRU4+Ij48b3dzOkNvbnN0cmFpbnQgbmFtZT0iR2V0RW5jb2RpbmciPjxvd3M6QWxsb3dlZFZhbHVlcz48b3dzOlZhbHVlPlJFU1RmdWw8L293czpWYWx1ZT48L293czpBbGxvd2VkVmFsdWVzPjwvb3dzOkNvbnN0cmFpbnQ+PC9vd3M6R2V0Pjwvb3dzOkhUVFA+PC9vd3M6RENQPjwvb3dzOk9wZXJhdGlvbj4KICA8b3dzOk9wZXJhdGlvbiBuYW1lPSJHZXRUaWxlIj48b3dzOkRDUD48b3dzOkhUVFA+PG93czpHZXQgeGxpbms6aHJlZj0iaHR0cHM6Ly9hcGkubWFwYm94LmNvbS9zdHlsZXMvdjEvPE1BUEJPWF9VU0VSTkFNRT4vY2w3aDc2MThxMDAwYTE0bzFndWFidzkwcC93bXRzP2FjY2Vzc190b2tlbj08TUFQQk9YX0FDQ0VTU19UT0tFTj4iPjxvd3M6Q29uc3RyYWludCBuYW1lPSJHZXRFbmNvZGluZyI+PG93czpBbGxvd2VkVmFsdWVzPjxvd3M6VmFsdWU+UkVTVGZ1bDwvb3dzOlZhbHVlPjwvb3dzOkFsbG93ZWRWYWx1ZXM+PC9vd3M6Q29uc3RyYWludD48L293czpHZXQ+PC9vd3M6SFRUUD48L293czpEQ1A+PC9vd3M6T3BlcmF0aW9uPgo8L293czpPcGVyYXRpb25zTWV0YWRhdGE+CiAgPENvbnRlbnRzPgogIDxMYXllcj4KICA8b3dzOlRpdGxlPkJhc2ljPC9vd3M6VGl0bGU+CiAgPG93czpBYnN0cmFjdD7CqSBPU008L293czpBYnN0cmFjdD4KICA8b3dzOldHUzg0Qm91bmRpbmdCb3ggY3JzPSJ1cm46b2djOmRlZjpjcnM6T0dDOjI6ODQiPgogIDxvd3M6TG93ZXJDb3JuZXI+LTE4MCAtODUuMDUxMTI5PC9vd3M6TG93ZXJDb3JuZXI+CiAgPG93czpVcHBlckNvcm5lcj4xNzkuOTc2ODA0IDg1LjA1MTEyOTwvb3dzOlVwcGVyQ29ybmVyPgo8L293czpXR1M4NEJvdW5kaW5nQm94PgogIDxvd3M6SWRlbnRpZmllcj5jbDdoNzYxOHEwMDBhMTRvMWd1YWJ3OTBwPC9vd3M6SWRlbnRpZmllcj4KICA8U3R5bGUgaXNEZWZhdWx0PSJ0cnVlIj48b3dzOklkZW50aWZpZXI+ZGVmYXVsdDwvb3dzOklkZW50aWZpZXI+PC9TdHlsZT4KICA8Rm9ybWF0PmltYWdlL3BuZzwvRm9ybWF0PgogIDxUaWxlTWF0cml4U2V0TGluaz48VGlsZU1hdHJpeFNldD5Hb29nbGVNYXBzQ29tcGF0aWJsZTwvVGlsZU1hdHJpeFNldD48L1RpbGVNYXRyaXhTZXRMaW5rPgogIDxSZXNvdXJjZVVSTCBmb3JtYXQ9ImltYWdlL3BuZyIgcmVzb3VyY2VUeXBlPSJ0aWxlIiB0ZW1wbGF0ZT0iaHR0cHM6Ly9hcGkubWFwYm94LmNvbS9zdHlsZXMvdjEvPE1BUEJPWF9VU0VSTkFNRT4vY2w3aDc2MThxMDAwYTE0bzFndWFidzkwcC90aWxlcy97VGlsZU1hdHJpeH0ve1RpbGVDb2x9L3tUaWxlUm93fT9hY2Nlc3NfdG9rZW49PE1BUEJPWF9BQ0NFU1NfVE9LRU4+Ii8+CjwvTGF5ZXI+CiAgPFRpbGVNYXRyaXhTZXQ+CiAgPG93czpUaXRsZT5Hb29nbGVNYXBzQ29tcGF0aWJsZTwvb3dzOlRpdGxlPgogIDxvd3M6QWJzdHJhY3Q+R29vZ2xlTWFwc0NvbXBhdGlibGUgRVBTRzozODU3PC9vd3M6QWJzdHJhY3Q+CiAgPG93czpJZGVudGlmaWVyPkdvb2dsZU1hcHNDb21wYXRpYmxlPC9vd3M6SWRlbnRpZmllcj4KICA8b3dzOlN1cHBvcnRlZENSUz51cm46b2djOmRlZjpjcnM6RVBTRzo6Mzg1Nzwvb3dzOlN1cHBvcnRlZENSUz4KICA8VGlsZU1hdHJpeD4KICA8b3dzOklkZW50aWZpZXI+MDwvb3dzOklkZW50aWZpZXI+CiAgPFNjYWxlRGVub21pbmF0b3I+Mjc5NTQxMTMyLjAxNDM1ODk8L1NjYWxlRGVub21pbmF0b3I+CiAgPFRvcExlZnRDb3JuZXI+LTIwMDM3NTA4LjM0Mjc4OTI1IDIwMDM3NTA4LjM0Mjc4OTI1PC9Ub3BMZWZ0Q29ybmVyPgogIDxUaWxlV2lkdGg+NTEyPC9UaWxlV2lkdGg+CiAgPFRpbGVIZWlnaHQ+NTEyPC9UaWxlSGVpZ2h0PgogIDxNYXRyaXhXaWR0aD4xPC9NYXRyaXhXaWR0aD4KICA8TWF0cml4SGVpZ2h0PjE8L01hdHJpeEhlaWdodD4KPC9UaWxlTWF0cml4PgogIDxUaWxlTWF0cml4PgogIDxvd3M6SWRlbnRpZmllcj4xPC9vd3M6SWRlbnRpZmllcj4KICA8U2NhbGVEZW5vbWluYXRvcj4xMzk3NzA1NjYuMDA3MTc5NDQ8L1NjYWxlRGVub21pbmF0b3I+CiAgPFRvcExlZnRDb3JuZXI+LTIwMDM3NTA4LjM0Mjc4OTI1IDIwMDM3NTA4LjM0Mjc4OTI1PC9Ub3BMZWZ0Q29ybmVyPgogIDxUaWxlV2lkdGg+NTEyPC9UaWxlV2lkdGg+CiAgPFRpbGVIZWlnaHQ+NTEyPC9UaWxlSGVpZ2h0PgogIDxNYXRyaXhXaWR0aD4yPC9NYXRyaXhXaWR0aD4KICA8TWF0cml4SGVpZ2h0PjI8L01hdHJpeEhlaWdodD4KPC9UaWxlTWF0cml4PgogIDxUaWxlTWF0cml4PgogIDxvd3M6SWRlbnRpZmllcj4yPC9vd3M6SWRlbnRpZmllcj4KICA8U2NhbGVEZW5vbWluYXRvcj42OTg4NTI4My4wMDM1ODk3MjwvU2NhbGVEZW5vbWluYXRvcj4KICA8VG9wTGVmdENvcm5lcj4tMjAwMzc1MDguMzQyNzg5MjUgMjAwMzc1MDguMzQyNzg5MjU8L1RvcExlZnRDb3JuZXI+CiAgPFRpbGVXaWR0aD41MTI8L1RpbGVXaWR0aD4KICA8VGlsZUhlaWdodD41MTI8L1RpbGVIZWlnaHQ+CiAgPE1hdHJpeFdpZHRoPjQ8L01hdHJpeFdpZHRoPgogIDxNYXRyaXhIZWlnaHQ+NDwvTWF0cml4SGVpZ2h0Pgo8L1RpbGVNYXRyaXg+CiAgPFRpbGVNYXRyaXg+CiAgPG93czpJZGVudGlmaWVyPjM8L293czpJZGVudGlmaWVyPgogIDxTY2FsZURlbm9taW5hdG9yPjM0OTQyNjQxLjUwMTc5NDg2PC9TY2FsZURlbm9taW5hdG9yPgogIDxUb3BMZWZ0Q29ybmVyPi0yMDAzNzUwOC4zNDI3ODkyNSAyMDAzNzUwOC4zNDI3ODkyNTwvVG9wTGVmdENvcm5lcj4KICA8VGlsZVdpZHRoPjUxMjwvVGlsZVdpZHRoPgogIDxUaWxlSGVpZ2h0PjUxMjwvVGlsZUhlaWdodD4KICA8TWF0cml4V2lkdGg+ODwvTWF0cml4V2lkdGg+CiAgPE1hdHJpeEhlaWdodD44PC9NYXRyaXhIZWlnaHQ+CjwvVGlsZU1hdHJpeD4KICA8VGlsZU1hdHJpeD4KICA8b3dzOklkZW50aWZpZXI+NDwvb3dzOklkZW50aWZpZXI+CiAgPFNjYWxlRGVub21pbmF0b3I+MTc0NzEzMjAuNzUwODk3NDM8L1NjYWxlRGVub21pbmF0b3I+CiAgPFRvcExlZnRDb3JuZXI+LTIwMDM3NTA4LjM0Mjc4OTI1IDIwMDM3NTA4LjM0Mjc4OTI1PC9Ub3BMZWZ0Q29ybmVyPgogIDxUaWxlV2lkdGg+NTEyPC9UaWxlV2lkdGg+CiAgPFRpbGVIZWlnaHQ+NTEyPC9UaWxlSGVpZ2h0PgogIDxNYXRyaXhXaWR0aD4xNjwvTWF0cml4V2lkdGg+CiAgPE1hdHJpeEhlaWdodD4xNjwvTWF0cml4SGVpZ2h0Pgo8L1RpbGVNYXRyaXg+CiAgPFRpbGVNYXRyaXg+CiAgPG93czpJZGVudGlmaWVyPjU8L293czpJZGVudGlmaWVyPgogIDxTY2FsZURlbm9taW5hdG9yPjg3MzU2NjAuMzc1NDQ4NzE1PC9TY2FsZURlbm9taW5hdG9yPgogIDxUb3BMZWZ0Q29ybmVyPi0yMDAzNzUwOC4zNDI3ODkyNSAyMDAzNzUwOC4zNDI3ODkyNTwvVG9wTGVmdENvcm5lcj4KICA8VGlsZVdpZHRoPjUxMjwvVGlsZVdpZHRoPgogIDxUaWxlSGVpZ2h0PjUxMjwvVGlsZUhlaWdodD4KICA8TWF0cml4V2lkdGg+MzI8L01hdHJpeFdpZHRoPgogIDxNYXRyaXhIZWlnaHQ+MzI8L01hdHJpeEhlaWdodD4KPC9UaWxlTWF0cml4PgogIDxUaWxlTWF0cml4PgogIDxvd3M6SWRlbnRpZmllcj42PC9vd3M6SWRlbnRpZmllcj4KICA8U2NhbGVEZW5vbWluYXRvcj40MzY3ODMwLjE4NzcyNDM1NzU8L1NjYWxlRGVub21pbmF0b3I+CiAgPFRvcExlZnRDb3JuZXI+LTIwMDM3NTA4LjM0Mjc4OTI1IDIwMDM3NTA4LjM0Mjc4OTI1PC9Ub3BMZWZ0Q29ybmVyPgogIDxUaWxlV2lkdGg+NTEyPC9UaWxlV2lkdGg+CiAgPFRpbGVIZWlnaHQ+NTEyPC9UaWxlSGVpZ2h0PgogIDxNYXRyaXhXaWR0aD42NDwvTWF0cml4V2lkdGg+CiAgPE1hdHJpeEhlaWdodD42NDwvTWF0cml4SGVpZ2h0Pgo8L1RpbGVNYXRyaXg+CiAgPFRpbGVNYXRyaXg+CiAgPG93czpJZGVudGlmaWVyPjc8L293czpJZGVudGlmaWVyPgogIDxTY2FsZURlbm9taW5hdG9yPjIxODM5MTUuMDkzODYyMTc4NzwvU2NhbGVEZW5vbWluYXRvcj4KICA8VG9wTGVmdENvcm5lcj4tMjAwMzc1MDguMzQyNzg5MjUgMjAwMzc1MDguMzQyNzg5MjU8L1RvcExlZnRDb3JuZXI+CiAgPFRpbGVXaWR0aD41MTI8L1RpbGVXaWR0aD4KICA8VGlsZUhlaWdodD41MTI8L1RpbGVIZWlnaHQ+CiAgPE1hdHJpeFdpZHRoPjEyODwvTWF0cml4V2lkdGg+CiAgPE1hdHJpeEhlaWdodD4xMjg8L01hdHJpeEhlaWdodD4KPC9UaWxlTWF0cml4PgogIDxUaWxlTWF0cml4PgogIDxvd3M6SWRlbnRpZmllcj44PC9vd3M6SWRlbnRpZmllcj4KICA8U2NhbGVEZW5vbWluYXRvcj4xMDkxOTU3LjU0NjkzMTA4OTQ8L1NjYWxlRGVub21pbmF0b3I+CiAgPFRvcExlZnRDb3JuZXI+LTIwMDM3NTA4LjM0Mjc4OTI1IDIwMDM3NTA4LjM0Mjc4OTI1PC9Ub3BMZWZ0Q29ybmVyPgogIDxUaWxlV2lkdGg+NTEyPC9UaWxlV2lkdGg+CiAgPFRpbGVIZWlnaHQ+NTEyPC9UaWxlSGVpZ2h0PgogIDxNYXRyaXhXaWR0aD4yNTY8L01hdHJpeFdpZHRoPgogIDxNYXRyaXhIZWlnaHQ+MjU2PC9NYXRyaXhIZWlnaHQ+CjwvVGlsZU1hdHJpeD4KICA8VGlsZU1hdHJpeD4KICA8b3dzOklkZW50aWZpZXI+OTwvb3dzOklkZW50aWZpZXI+CiAgPFNjYWxlRGVub21pbmF0b3I+NTQ1OTc4Ljc3MzQ2NTU0NDc8L1NjYWxlRGVub21pbmF0b3I+CiAgPFRvcExlZnRDb3JuZXI+LTIwMDM3NTA4LjM0Mjc4OTI1IDIwMDM3NTA4LjM0Mjc4OTI1PC9Ub3BMZWZ0Q29ybmVyPgogIDxUaWxlV2lkdGg+NTEyPC9UaWxlV2lkdGg+CiAgPFRpbGVIZWlnaHQ+NTEyPC9UaWxlSGVpZ2h0PgogIDxNYXRyaXhXaWR0aD41MTI8L01hdHJpeFdpZHRoPgogIDxNYXRyaXhIZWlnaHQ+NTEyPC9NYXRyaXhIZWlnaHQ+CjwvVGlsZU1hdHJpeD4KICA8VGlsZU1hdHJpeD4KICA8b3dzOklkZW50aWZpZXI+MTA8L293czpJZGVudGlmaWVyPgogIDxTY2FsZURlbm9taW5hdG9yPjI3Mjk4OS4zODY3MzI3NzIzNDwvU2NhbGVEZW5vbWluYXRvcj4KICA8VG9wTGVmdENvcm5lcj4tMjAwMzc1MDguMzQyNzg5MjUgMjAwMzc1MDguMzQyNzg5MjU8L1RvcExlZnRDb3JuZXI+CiAgPFRpbGVXaWR0aD41MTI8L1RpbGVXaWR0aD4KICA8VGlsZUhlaWdodD41MTI8L1RpbGVIZWlnaHQ+CiAgPE1hdHJpeFdpZHRoPjEwMjQ8L01hdHJpeFdpZHRoPgogIDxNYXRyaXhIZWlnaHQ+MTAyNDwvTWF0cml4SGVpZ2h0Pgo8L1RpbGVNYXRyaXg+CiAgPFRpbGVNYXRyaXg+CiAgPG93czpJZGVudGlmaWVyPjExPC9vd3M6SWRlbnRpZmllcj4KICA8U2NhbGVEZW5vbWluYXRvcj4xMzY0OTQuNjkzMzY2Mzg2MTc8L1NjYWxlRGVub21pbmF0b3I+CiAgPFRvcExlZnRDb3JuZXI+LTIwMDM3NTA4LjM0Mjc4OTI1IDIwMDM3NTA4LjM0Mjc4OTI1PC9Ub3BMZWZ0Q29ybmVyPgogIDxUaWxlV2lkdGg+NTEyPC9UaWxlV2lkdGg+CiAgPFRpbGVIZWlnaHQ+NTEyPC9UaWxlSGVpZ2h0PgogIDxNYXRyaXhXaWR0aD4yMDQ4PC9NYXRyaXhXaWR0aD4KICA8TWF0cml4SGVpZ2h0PjIwNDg8L01hdHJpeEhlaWdodD4KPC9UaWxlTWF0cml4PgogIDxUaWxlTWF0cml4PgogIDxvd3M6SWRlbnRpZmllcj4xMjwvb3dzOklkZW50aWZpZXI+CiAgPFNjYWxlRGVub21pbmF0b3I+NjgyNDcuMzQ2NjgzMTkzMDk8L1NjYWxlRGVub21pbmF0b3I+CiAgPFRvcExlZnRDb3JuZXI+LTIwMDM3NTA4LjM0Mjc4OTI1IDIwMDM3NTA4LjM0Mjc4OTI1PC9Ub3BMZWZ0Q29ybmVyPgogIDxUaWxlV2lkdGg+NTEyPC9UaWxlV2lkdGg+CiAgPFRpbGVIZWlnaHQ+NTEyPC9UaWxlSGVpZ2h0PgogIDxNYXRyaXhXaWR0aD40MDk2PC9NYXRyaXhXaWR0aD4KICA8TWF0cml4SGVpZ2h0PjQwOTY8L01hdHJpeEhlaWdodD4KPC9UaWxlTWF0cml4PgogIDxUaWxlTWF0cml4PgogIDxvd3M6SWRlbnRpZmllcj4xMzwvb3dzOklkZW50aWZpZXI+CiAgPFNjYWxlRGVub21pbmF0b3I+MzQxMjMuNjczMzQxNTk2NTQ8L1NjYWxlRGVub21pbmF0b3I+CiAgPFRvcExlZnRDb3JuZXI+LTIwMDM3NTA4LjM0Mjc4OTI1IDIwMDM3NTA4LjM0Mjc4OTI1PC9Ub3BMZWZ0Q29ybmVyPgogIDxUaWxlV2lkdGg+NTEyPC9UaWxlV2lkdGg+CiAgPFRpbGVIZWlnaHQ+NTEyPC9UaWxlSGVpZ2h0PgogIDxNYXRyaXhXaWR0aD44MTkyPC9NYXRyaXhXaWR0aD4KICA8TWF0cml4SGVpZ2h0PjgxOTI8L01hdHJpeEhlaWdodD4KPC9UaWxlTWF0cml4PgogIDxUaWxlTWF0cml4PgogIDxvd3M6SWRlbnRpZmllcj4xNDwvb3dzOklkZW50aWZpZXI+CiAgPFNjYWxlRGVub21pbmF0b3I+MTcwNjEuODM2NjcwNzk4Mjc8L1NjYWxlRGVub21pbmF0b3I+CiAgPFRvcExlZnRDb3JuZXI+LTIwMDM3NTA4LjM0Mjc4OTI1IDIwMDM3NTA4LjM0Mjc4OTI1PC9Ub3BMZWZ0Q29ybmVyPgogIDxUaWxlV2lkdGg+NTEyPC9UaWxlV2lkdGg+CiAgPFRpbGVIZWlnaHQ+NTEyPC9UaWxlSGVpZ2h0PgogIDxNYXRyaXhXaWR0aD4xNjM4NDwvTWF0cml4V2lkdGg+CiAgPE1hdHJpeEhlaWdodD4xNjM4NDwvTWF0cml4SGVpZ2h0Pgo8L1RpbGVNYXRyaXg+CiAgPFRpbGVNYXRyaXg+CiAgPG93czpJZGVudGlmaWVyPjE1PC9vd3M6SWRlbnRpZmllcj4KICA8U2NhbGVEZW5vbWluYXRvcj44NTMwLjkxODMzNTM5OTEzNjwvU2NhbGVEZW5vbWluYXRvcj4KICA8VG9wTGVmdENvcm5lcj4tMjAwMzc1MDguMzQyNzg5MjUgMjAwMzc1MDguMzQyNzg5MjU8L1RvcExlZnRDb3JuZXI+CiAgPFRpbGVXaWR0aD41MTI8L1RpbGVXaWR0aD4KICA8VGlsZUhlaWdodD41MTI8L1RpbGVIZWlnaHQ+CiAgPE1hdHJpeFdpZHRoPjMyNzY4PC9NYXRyaXhXaWR0aD4KICA8TWF0cml4SGVpZ2h0PjMyNzY4PC9NYXRyaXhIZWlnaHQ+CjwvVGlsZU1hdHJpeD4KICA8VGlsZU1hdHJpeD4KICA8b3dzOklkZW50aWZpZXI+MTY8L293czpJZGVudGlmaWVyPgogIDxTY2FsZURlbm9taW5hdG9yPjQyNjUuNDU5MTY3Njk5NTY4PC9TY2FsZURlbm9taW5hdG9yPgogIDxUb3BMZWZ0Q29ybmVyPi0yMDAzNzUwOC4zNDI3ODkyNSAyMDAzNzUwOC4zNDI3ODkyNTwvVG9wTGVmdENvcm5lcj4KICA8VGlsZVdpZHRoPjUxMjwvVGlsZVdpZHRoPgogIDxUaWxlSGVpZ2h0PjUxMjwvVGlsZUhlaWdodD4KICA8TWF0cml4V2lkdGg+NjU1MzY8L01hdHJpeFdpZHRoPgogIDxNYXRyaXhIZWlnaHQ+NjU1MzY8L01hdHJpeEhlaWdodD4KPC9UaWxlTWF0cml4PgogIDxUaWxlTWF0cml4PgogIDxvd3M6SWRlbnRpZmllcj4xNzwvb3dzOklkZW50aWZpZXI+CiAgPFNjYWxlRGVub21pbmF0b3I+MjEzMi43Mjk1ODM4NDk3ODQ8L1NjYWxlRGVub21pbmF0b3I+CiAgPFRvcExlZnRDb3JuZXI+LTIwMDM3NTA4LjM0Mjc4OTI1IDIwMDM3NTA4LjM0Mjc4OTI1PC9Ub3BMZWZ0Q29ybmVyPgogIDxUaWxlV2lkdGg+NTEyPC9UaWxlV2lkdGg+CiAgPFRpbGVIZWlnaHQ+NTEyPC9UaWxlSGVpZ2h0PgogIDxNYXRyaXhXaWR0aD4xMzEwNzI8L01hdHJpeFdpZHRoPgogIDxNYXRyaXhIZWlnaHQ+MTMxMDcyPC9NYXRyaXhIZWlnaHQ+CjwvVGlsZU1hdHJpeD4KICA8VGlsZU1hdHJpeD4KICA8b3dzOklkZW50aWZpZXI+MTg8L293czpJZGVudGlmaWVyPgogIDxTY2FsZURlbm9taW5hdG9yPjEwNjYuMzY0NzkxOTI0ODkyPC9TY2FsZURlbm9taW5hdG9yPgogIDxUb3BMZWZ0Q29ybmVyPi0yMDAzNzUwOC4zNDI3ODkyNSAyMDAzNzUwOC4zNDI3ODkyNTwvVG9wTGVmdENvcm5lcj4KICA8VGlsZVdpZHRoPjUxMjwvVGlsZVdpZHRoPgogIDxUaWxlSGVpZ2h0PjUxMjwvVGlsZUhlaWdodD4KICA8TWF0cml4V2lkdGg+MjYyMTQ0PC9NYXRyaXhXaWR0aD4KICA8TWF0cml4SGVpZ2h0PjI2MjE0NDwvTWF0cml4SGVpZ2h0Pgo8L1RpbGVNYXRyaXg+CiAgPFRpbGVNYXRyaXg+CiAgPG93czpJZGVudGlmaWVyPjE5PC9vd3M6SWRlbnRpZmllcj4KICA8U2NhbGVEZW5vbWluYXRvcj41MzMuMTgyMzk1OTYyNDQ2PC9TY2FsZURlbm9taW5hdG9yPgogIDxUb3BMZWZ0Q29ybmVyPi0yMDAzNzUwOC4zNDI3ODkyNSAyMDAzNzUwOC4zNDI3ODkyNTwvVG9wTGVmdENvcm5lcj4KICA8VGlsZVdpZHRoPjUxMjwvVGlsZVdpZHRoPgogIDxUaWxlSGVpZ2h0PjUxMjwvVGlsZUhlaWdodD4KICA8TWF0cml4V2lkdGg+NTI0Mjg4PC9NYXRyaXhXaWR0aD4KICA8TWF0cml4SGVpZ2h0PjUyNDI4ODwvTWF0cml4SGVpZ2h0Pgo8L1RpbGVNYXRyaXg+CiAgPFRpbGVNYXRyaXg+CiAgPG93czpJZGVudGlmaWVyPjIwPC9vd3M6SWRlbnRpZmllcj4KICA8U2NhbGVEZW5vbWluYXRvcj4yNjYuNTkxMTk3OTgxMjIzPC9TY2FsZURlbm9taW5hdG9yPgogIDxUb3BMZWZ0Q29ybmVyPi0yMDAzNzUwOC4zNDI3ODkyNSAyMDAzNzUwOC4zNDI3ODkyNTwvVG9wTGVmdENvcm5lcj4KICA8VGlsZVdpZHRoPjUxMjwvVGlsZVdpZHRoPgogIDxUaWxlSGVpZ2h0PjUxMjwvVGlsZUhlaWdodD4KICA8TWF0cml4V2lkdGg+MTA0ODU3NjwvTWF0cml4V2lkdGg+CiAgPE1hdHJpeEhlaWdodD4xMDQ4NTc2PC9NYXRyaXhIZWlnaHQ+CjwvVGlsZU1hdHJpeD4KICA8VGlsZU1hdHJpeD4KICA8b3dzOklkZW50aWZpZXI+MjE8L293czpJZGVudGlmaWVyPgogIDxTY2FsZURlbm9taW5hdG9yPjEzMy4yOTU1OTg5OTA2MTE1PC9TY2FsZURlbm9taW5hdG9yPgogIDxUb3BMZWZ0Q29ybmVyPi0yMDAzNzUwOC4zNDI3ODkyNSAyMDAzNzUwOC4zNDI3ODkyNTwvVG9wTGVmdENvcm5lcj4KICA8VGlsZVdpZHRoPjUxMjwvVGlsZVdpZHRoPgogIDxUaWxlSGVpZ2h0PjUxMjwvVGlsZUhlaWdodD4KICA8TWF0cml4V2lkdGg+MjA5NzE1MjwvTWF0cml4V2lkdGg+CiAgPE1hdHJpeEhlaWdodD4yMDk3MTUyPC9NYXRyaXhIZWlnaHQ+CjwvVGlsZU1hdHJpeD4KICA8VGlsZU1hdHJpeD4KICA8b3dzOklkZW50aWZpZXI+MjI8L293czpJZGVudGlmaWVyPgogIDxTY2FsZURlbm9taW5hdG9yPjY2LjY0Nzc5OTQ5NTMwNTc1PC9TY2FsZURlbm9taW5hdG9yPgogIDxUb3BMZWZ0Q29ybmVyPi0yMDAzNzUwOC4zNDI3ODkyNSAyMDAzNzUwOC4zNDI3ODkyNTwvVG9wTGVmdENvcm5lcj4KICA8VGlsZVdpZHRoPjUxMjwvVGlsZVdpZHRoPgogIDxUaWxlSGVpZ2h0PjUxMjwvVGlsZUhlaWdodD4KICA8TWF0cml4V2lkdGg+NDE5NDMwNDwvTWF0cml4V2lkdGg+CiAgPE1hdHJpeEhlaWdodD40MTk0MzA0PC9NYXRyaXhIZWlnaHQ+CjwvVGlsZU1hdHJpeD4KPC9UaWxlTWF0cml4U2V0Pgo8L0NvbnRlbnRzPgogIDxTZXJ2aWNlTWV0YWRhdGFVUkwgeGxpbms6aHJlZj0iaHR0cHM6Ly9hcGkubWFwYm94LmNvbS9zdHlsZXMvdjEvPE1BUEJPWF9VU0VSTkFNRT4vY2w3aDc2MThxMDAwYTE0bzFndWFidzkwcC93bXRzP2FjY2Vzc190b2tlbj08TUFQQk9YX0FDQ0VTU19UT0tFTj4iLz4KPC9DYXBhYmlsaXRpZXM+
-  recorded_at: Wed, 31 Aug 2022 11:56:52 GMT
+      encoding: UTF-8
+      string: |-
+        <Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd" version="1.0.0">
+          <ows:ServiceIdentification>
+          <ows:Title>Mapbox</ows:Title>
+          <ows:ServiceType>OGC WMTS</ows:ServiceType>
+          <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
+        </ows:ServiceIdentification>
+          <ows:OperationsMetadata>
+          <ows:Operation name="GetCapabilities"><ows:DCP><ows:HTTP><ows:Get xlink:href="https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/clb1jxblw000014tbwhfjxy31/wmts?access_token=<MAPBOX_ACCESS_TOKEN>"><ows:Constraint name="GetEncoding"><ows:AllowedValues><ows:Value>RESTful</ows:Value></ows:AllowedValues></ows:Constraint></ows:Get></ows:HTTP></ows:DCP></ows:Operation>
+          <ows:Operation name="GetTile"><ows:DCP><ows:HTTP><ows:Get xlink:href="https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/clb1jxblw000014tbwhfjxy31/wmts?access_token=<MAPBOX_ACCESS_TOKEN>"><ows:Constraint name="GetEncoding"><ows:AllowedValues><ows:Value>RESTful</ows:Value></ows:AllowedValues></ows:Constraint></ows:Get></ows:HTTP></ows:DCP></ows:Operation>
+        </ows:OperationsMetadata>
+          <Contents>
+          <Layer>
+          <ows:Title>Blank style 1</ows:Title>
+          <ows:Abstract></ows:Abstract>
+          <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+          <ows:LowerCorner>-180 -85.051129</ows:LowerCorner>
+          <ows:UpperCorner>179.976804 85.051129</ows:UpperCorner>
+        </ows:WGS84BoundingBox>
+          <ows:Identifier>clb1jxblw000014tbwhfjxy31</ows:Identifier>
+          <Style isDefault="true"><ows:Identifier>default</ows:Identifier></Style>
+          <Format>image/png</Format>
+          <TileMatrixSetLink><TileMatrixSet>GoogleMapsCompatible</TileMatrixSet></TileMatrixSetLink>
+          <ResourceURL format="image/png" resourceType="tile" template="https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/clb1jxblw000014tbwhfjxy31/tiles/{TileMatrix}/{TileCol}/{TileRow}?access_token=<MAPBOX_ACCESS_TOKEN>"/>
+        </Layer>
+          <TileMatrixSet>
+          <ows:Title>GoogleMapsCompatible</ows:Title>
+          <ows:Abstract>GoogleMapsCompatible EPSG:3857</ows:Abstract>
+          <ows:Identifier>GoogleMapsCompatible</ows:Identifier>
+          <ows:SupportedCRS>urn:ogc:def:crs:EPSG::3857</ows:SupportedCRS>
+          <TileMatrix>
+          <ows:Identifier>0</ows:Identifier>
+          <ScaleDenominator>279541132.0143589</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>1</MatrixWidth>
+          <MatrixHeight>1</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>1</ows:Identifier>
+          <ScaleDenominator>139770566.00717944</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>2</MatrixWidth>
+          <MatrixHeight>2</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>2</ows:Identifier>
+          <ScaleDenominator>69885283.00358972</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>4</MatrixWidth>
+          <MatrixHeight>4</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>3</ows:Identifier>
+          <ScaleDenominator>34942641.50179486</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>8</MatrixWidth>
+          <MatrixHeight>8</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>4</ows:Identifier>
+          <ScaleDenominator>17471320.75089743</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>16</MatrixWidth>
+          <MatrixHeight>16</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>5</ows:Identifier>
+          <ScaleDenominator>8735660.375448715</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>32</MatrixWidth>
+          <MatrixHeight>32</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>6</ows:Identifier>
+          <ScaleDenominator>4367830.1877243575</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>64</MatrixWidth>
+          <MatrixHeight>64</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>7</ows:Identifier>
+          <ScaleDenominator>2183915.0938621787</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>128</MatrixWidth>
+          <MatrixHeight>128</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>8</ows:Identifier>
+          <ScaleDenominator>1091957.5469310894</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>256</MatrixWidth>
+          <MatrixHeight>256</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>9</ows:Identifier>
+          <ScaleDenominator>545978.7734655447</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>512</MatrixWidth>
+          <MatrixHeight>512</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>10</ows:Identifier>
+          <ScaleDenominator>272989.38673277234</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>1024</MatrixWidth>
+          <MatrixHeight>1024</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>11</ows:Identifier>
+          <ScaleDenominator>136494.69336638617</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>2048</MatrixWidth>
+          <MatrixHeight>2048</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>12</ows:Identifier>
+          <ScaleDenominator>68247.34668319309</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>4096</MatrixWidth>
+          <MatrixHeight>4096</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>13</ows:Identifier>
+          <ScaleDenominator>34123.67334159654</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>8192</MatrixWidth>
+          <MatrixHeight>8192</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>14</ows:Identifier>
+          <ScaleDenominator>17061.83667079827</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>16384</MatrixWidth>
+          <MatrixHeight>16384</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>15</ows:Identifier>
+          <ScaleDenominator>8530.918335399136</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>32768</MatrixWidth>
+          <MatrixHeight>32768</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>16</ows:Identifier>
+          <ScaleDenominator>4265.459167699568</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>65536</MatrixWidth>
+          <MatrixHeight>65536</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>17</ows:Identifier>
+          <ScaleDenominator>2132.729583849784</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>131072</MatrixWidth>
+          <MatrixHeight>131072</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>18</ows:Identifier>
+          <ScaleDenominator>1066.364791924892</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>262144</MatrixWidth>
+          <MatrixHeight>262144</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>19</ows:Identifier>
+          <ScaleDenominator>533.182395962446</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>524288</MatrixWidth>
+          <MatrixHeight>524288</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>20</ows:Identifier>
+          <ScaleDenominator>266.591197981223</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>1048576</MatrixWidth>
+          <MatrixHeight>1048576</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>21</ows:Identifier>
+          <ScaleDenominator>133.2955989906115</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>2097152</MatrixWidth>
+          <MatrixHeight>2097152</MatrixHeight>
+        </TileMatrix>
+          <TileMatrix>
+          <ows:Identifier>22</ows:Identifier>
+          <ScaleDenominator>66.64779949530575</ScaleDenominator>
+          <TopLeftCorner>-20037508.34278925 20037508.34278925</TopLeftCorner>
+          <TileWidth>512</TileWidth>
+          <TileHeight>512</TileHeight>
+          <MatrixWidth>4194304</MatrixWidth>
+          <MatrixHeight>4194304</MatrixHeight>
+        </TileMatrix>
+        </TileMatrixSet>
+        </Contents>
+          <ServiceMetadataURL xlink:href="https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/clb1jxblw000014tbwhfjxy31/wmts?access_token=<MAPBOX_ACCESS_TOKEN>"/>
+        </Capabilities>
+  recorded_at: Tue, 29 Nov 2022 08:26:39 GMT
 recorded_with: VCR 6.1.0

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: put
-    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/cl7h9b1aw000d16odxowup40w/protected?access_token=<MAPBOX_ACCESS_TOKEN>
+    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/clb2znpte000214qjisefrjn4/protected?access_token=<MAPBOX_ACCESS_TOKEN>
     body:
       encoding: US-ASCII
       string: 'false'
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Wed, 31 Aug 2022 09:24:00 GMT
+      - Wed, 30 Nov 2022 04:03:04 GMT
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Expose-Headers:
@@ -43,13 +43,13 @@ http_interactions:
       X-Cache:
       - Error from cloudfront
       Via:
-      - 1.1 0eb20acecc5da046320e4e9ee03ab148.cloudfront.net (CloudFront)
+      - 1.1 18684d08f1c8a3056a0c5115ae29d06c.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - KIX50-P2
+      - NRT57-P2
       X-Amz-Cf-Id:
-      - eDu25heNzHQFYGqoE4pfd1v6qoAuq6Osc30y7ftu4gK83Y8R-yamIQ==
+      - y1CvacrD_17S_zluqN-LZTvEiIdBb_cSLbpY5dmu5jeLVMIZjugksg==
     body:
       encoding: ASCII-8BIT
       string: '{"protected":false}'
-  recorded_at: Wed, 31 Aug 2022 09:24:00 GMT
+  recorded_at: Wed, 30 Nov 2022 04:03:04 GMT
 recorded_with: VCR 6.1.0

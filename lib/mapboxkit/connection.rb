@@ -36,10 +36,7 @@ module Mapboxkit
         response = connection.public_send(method, url) do |req|
           req.headers[Faraday::CONTENT_TYPE] = content_type
 
-          case content_type
-          when 'text/plain', 'image/svg+xml' then req.body = params.to_s
-          when 'multipart/form-data' then req.body = params
-          end
+          req.body = params
         end
 
         response.body
@@ -57,6 +54,8 @@ module Mapboxkit
             faraday.response(:logger) if ENV['VERBOSE'] == '1'
 
             faraday.response(:json)
+
+            faraday.response(:raise_error)
 
             faraday.adapter(Faraday.default_adapter)
           end

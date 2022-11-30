@@ -25,7 +25,7 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Wed, 31 Aug 2022 06:08:45 GMT
+      - Tue, 29 Nov 2022 08:26:16 GMT
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Expose-Headers:
@@ -43,21 +43,19 @@ http_interactions:
       Cache-Control:
       - max-age=900
       Etag:
-      - W/"2e0-hYT+m9QCIOI5gn4o1Jifupj1vuA"
+      - W/"211-O0jMBdSQcIKuemtAjWeQmYJuRFM"
       Vary:
       - Accept-Encoding
       X-Cache:
-      - Hit from cloudfront
+      - Miss from cloudfront
       Via:
-      - 1.1 58ef75a5fdb60c073729be8392b4c628.cloudfront.net (CloudFront)
+      - 1.1 27c0672d106408bed6050a64ce70310a.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - NRT51-C4
+      - NRT12-C2
       X-Amz-Cf-Id:
-      - c-HattifEEyfrmIMjeXUFZLXRRnW9PY9Y0aRp3FWre40FJhGgYvLeQ==
-      Age:
-      - '112'
+      - iRP4wtp1q631WwCk6iClphs4CYBlzAMgzS2t8CnvadTZs5r5cRoqGA==
     body:
       encoding: ASCII-8BIT
-      string: '[{"version":8,"zoom":2,"created":"2022-08-31T05:48:42.137Z","visibility":"private","owner":"<MAPBOX_USERNAME>","sources":{"composite":{"url":"mapbox://mapbox.mapbox-streets-v8,mapbox.mapbox-terrain-v2,mapbox.mapbox-bathymetry-v2","type":"vector"}},"id":"cl7h76sxp000715pkomashqt9","name":"Streets","modified":"2022-08-31T05:48:46.089Z","protected":false,"center":[0,20]},{"version":8,"zoom":2,"created":"2022-08-31T05:48:06.254Z","visibility":"public","owner":"<MAPBOX_USERNAME>","sources":{"composite":{"url":"mapbox://mapbox.mapbox-streets-v8,mapbox.mapbox-terrain-v2,mapbox.mapbox-bathymetry-v2","type":"vector"}},"id":"cl7h7618q000a14o1guabw90p","name":"Basic","modified":"2022-08-31T06:04:59.848Z","protected":false,"center":[0,20]}]'
-  recorded_at: Wed, 31 Aug 2022 06:10:37 GMT
+      string: '[{"version":8,"bearing":0,"created":"2022-11-29T01:41:57.484Z","visibility":"public","sources":{},"name":"Streets","protected":false,"center":[0,0],"pitch":0,"zoom":0,"owner":"<MAPBOX_USERNAME>","id":"clb1k05lh004115lcuz19u71t","modified":"2022-11-29T05:36:18.838Z"},{"version":8,"bearing":0,"created":"2022-11-29T01:39:45.308Z","visibility":"public","sources":{},"name":"Basic","protected":false,"center":[0,0],"pitch":0,"zoom":0,"owner":"<MAPBOX_USERNAME>","id":"clb1jxblw000014tbwhfjxy31","modified":"2022-11-29T05:36:08.129Z"}]'
+  recorded_at: Tue, 29 Nov 2022 08:26:16 GMT
 recorded_with: VCR 6.1.0

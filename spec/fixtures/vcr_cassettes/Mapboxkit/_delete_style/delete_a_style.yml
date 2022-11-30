@@ -2,10 +2,10 @@
 http_interactions:
 - request:
     method: delete
-    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/cl7h9b1aw000d16odxowup40w?access_token=<MAPBOX_ACCESS_TOKEN>
+    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/clb33xfon000b15kxscnf3r90?access_token=<MAPBOX_ACCESS_TOKEN>
     body:
-      encoding: US-ASCII
-      string: ''
+      encoding: UTF-8
+      string: "{}"
     headers:
       User-Agent:
       - Mapboxkit 0.0.1.alpha
@@ -23,7 +23,7 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Wed, 31 Aug 2022 11:48:53 GMT
+      - Wed, 30 Nov 2022 03:52:44 GMT
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Expose-Headers:
@@ -35,13 +35,13 @@ http_interactions:
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 80c3335d57d966a3493b3e840bf8644c.cloudfront.net (CloudFront)
+      - 1.1 49b964f897a5e1c9f9d0e182630ef7ca.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - NRT51-P1
+      - NRT57-P2
       X-Amz-Cf-Id:
-      - YssQHIXzUhBw_SnBEqKzOm020OOdGUKUBJwAr179yAXQFHOKOzxSlw==
+      - 9_2Hc0K2-dlqtlu6iFihxIlarhQwZKBfBTX2lpzDldeLfA6Q4xi23w==
     body:
       encoding: UTF-8
       string: ''
-  recorded_at: Wed, 31 Aug 2022 11:48:51 GMT
+  recorded_at: Wed, 30 Nov 2022 03:52:44 GMT
 recorded_with: VCR 6.1.0

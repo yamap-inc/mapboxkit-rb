@@ -24,10 +24,10 @@ http_interactions:
       - '16'
       Connection:
       - keep-alive
-      Date:
-      - Tue, 30 Aug 2022 17:53:14 GMT
       X-Powered-By:
       - Express
+      Date:
+      - Mon, 28 Nov 2022 17:32:08 GMT
       Etag:
       - W/"10-64e0d8b5"
       Vary:
@@ -35,15 +35,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 9bd7c2eb9edb3030488f847c2b13f76c.cloudfront.net (CloudFront)
+      - 1.1 37fe904b1251cdd6d02fffb4d52e247c.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - KIX50-P2
+      - NRT12-C2
       X-Amz-Cf-Id:
-      - fgt-YtDME-2Z3niRT7OZaiBh-Ch7KF6xWkl8InHnpJydmT4fMz3P0A==
+      - LSlt2u6e-bDihqWSCgWwrCVBT4HNfGpYchiJuAPoXa1Co99DMpdQPA==
       Age:
-      - '42544'
+      - '53696'
     body:
       encoding: UTF-8
       string: '{"api":"mapbox"}'
-  recorded_at: Wed, 31 Aug 2022 05:42:17 GMT
+  recorded_at: Tue, 29 Nov 2022 08:26:34 GMT
 recorded_with: VCR 6.1.0
