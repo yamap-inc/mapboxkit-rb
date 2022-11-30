@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/clb1jxblw000014tbwhfjxy31?access_token=<MAPBOX_ACCESS_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mapboxkit 0.0.1.alpha
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 29 Nov 2022 08:26:36 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Link
+      X-Origin:
+      - mbx-styles
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - DENY
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin
+      Cache-Control:
+      - max-age=900
+      Etag:
+      - W/"273-NpMu3n6kXeVdq4rUhLXktMUAZJ4"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 d3d9dad2af73f55ca535e5ee799f7ad8.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - NRT12-C2
+      X-Amz-Cf-Id:
+      - cxRalwE52I2SoE-GryQ_C7mypn1kg4xT5kmvLQukQNNr02Z2p8Wcsw==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"version":8,"name":"Basic","metadata":{"mapbox:autocomposite":true,"mapbox:type":"template","mapbox:sdk-support":{"android":"10.6.0","ios":"10.6.0","js":"2.9.0"},"mapbox:groups":{}},"center":[0,0],"zoom":0,"bearing":0,"pitch":0,"sources":{},"sprite":"mapbox://sprites/<MAPBOX_USERNAME>/clb1jxblw000014tbwhfjxy31/ck2u8j60r58fu0sgyxrigm3cu","glyphs":"mapbox://fonts/mapbox/{fontstack}/{range}.pbf","projection":{"name":"globe"},"layers":[],"created":"2022-11-29T01:39:45.308Z","modified":"2022-11-29T05:36:08.129Z","id":"clb1jxblw000014tbwhfjxy31","owner":"<MAPBOX_USERNAME>","visibility":"public","protected":false,"draft":false}'
+  recorded_at: Tue, 29 Nov 2022 08:26:36 GMT
+recorded_with: VCR 6.1.0

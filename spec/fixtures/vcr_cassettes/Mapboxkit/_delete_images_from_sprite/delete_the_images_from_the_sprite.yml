@@ -1,0 +1,110 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/clb1jxblw000014tbwhfjxy31/sprite?access_token=<MAPBOX_ACCESS_TOKEN>
+    body:
+      encoding: UTF-8
+      string: "-------------RubyMultipartPost-acdb710c3efaf83ac2dea678837a7bfc\r\nContent-Disposition:
+        form-data; name=\"images\"; filename=\"square\"\r\nContent-Length: 182\r\nContent-Type:
+        image/svg+xml\r\nContent-Transfer-Encoding: binary\r\n\r\n<svg class=\"square\"
+        width=\"200\" height=\"200\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"
+        version=\"1.1\">\n  <circle x=\"0\" y=\"0\" width=\"200\" height=\"100\" r=\"200\"
+        />\n</svg>\n\r\n-------------RubyMultipartPost-acdb710c3efaf83ac2dea678837a7bfc--\r\n"
+    headers:
+      User-Agent:
+      - Mapboxkit 0.0.1.alpha
+      Content-Type:
+      - multipart/form-data; boundary=-----------RubyMultipartPost-acdb710c3efaf83ac2dea678837a7bfc
+      Content-Length:
+      - '469'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 30 Nov 2022 01:33:04 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Link
+      X-Origin:
+      - mbx-styles
+      Etag:
+      - W/"4f-dIiLFKWb9M/r+6ej3XXBAsMU+VM"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 0bd817a42a89a0fa68e8e7f4e6061dfc.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - NRT57-P2
+      X-Amz-Cf-Id:
+      - o1gqSMTVJ-UcXWp21cgAfGEsCz_boDgJOaz5V7sq1dNRkQ5oqMyadw==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"square":{"width":200,"height":200,"x":0,"y":0,"pixelRatio":1,"visible":true}}'
+  recorded_at: Wed, 30 Nov 2022 01:33:04 GMT
+- request:
+    method: delete
+    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/clb1jxblw000014tbwhfjxy31/sprite?access_token=<MAPBOX_ACCESS_TOKEN>
+    body:
+      encoding: UTF-8
+      string: '["square"]'
+    headers:
+      User-Agent:
+      - Mapboxkit 0.0.1.alpha
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 30 Nov 2022 01:33:04 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Link
+      X-Origin:
+      - mbx-styles
+      Etag:
+      - W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 ba1ce9c69a66256a857451734e2da0ae.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - NRT57-P2
+      X-Amz-Cf-Id:
+      - kpDh7r0HduiHBdj1xB9zl3b433IyKNlVlgGIR7L4RyU2UDxTCNECyQ==
+    body:
+      encoding: ASCII-8BIT
+      string: "{}"
+  recorded_at: Wed, 30 Nov 2022 01:33:05 GMT
+recorded_with: VCR 6.1.0

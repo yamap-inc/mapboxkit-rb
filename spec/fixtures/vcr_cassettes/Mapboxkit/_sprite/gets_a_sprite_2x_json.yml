@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/clb1jxblw000014tbwhfjxy31/sprite@2x?access_token=<MAPBOX_ACCESS_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mapboxkit 0.0.1.alpha
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 29 Nov 2022 08:26:40 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Link
+      X-Origin:
+      - mbx-styles
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - DENY
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - origin
+      Cache-Control:
+      - max-age=900
+      Etag:
+      - '"sprite-4.5.8-v1/88r9j5lgskm70ay3mkqbuzktx"'
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 4cb3df5349fbb69c930b315b7d0a5272.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - NRT12-C2
+      X-Amz-Cf-Id:
+      - fOHsVPIVqxXDbodeNOxOpeUDmq8ZSwY6HVtnjNTGHcqFgYMQX9GqlA==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"square":{"width":400,"height":400,"x":0,"y":0,"pixelRatio":2,"visible":true}}'
+  recorded_at: Tue, 29 Nov 2022 08:26:40 GMT
+recorded_with: VCR 6.1.0

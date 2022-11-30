@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/clb1jxblw000014tbwhfjxy31/sprite?access_token=<MAPBOX_ACCESS_TOKEN>
+    body:
+      encoding: UTF-8
+      string: "-------------RubyMultipartPost-109d29f9b7cbfceaed404ddcc97a912e\r\nContent-Disposition:
+        form-data; name=\"images\"; filename=\"square\"\r\nContent-Length: 182\r\nContent-Type:
+        image/svg+xml\r\nContent-Transfer-Encoding: binary\r\n\r\n<svg class=\"square\"
+        width=\"200\" height=\"200\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"
+        version=\"1.1\">\n  <circle x=\"0\" y=\"0\" width=\"200\" height=\"100\" r=\"200\"
+        />\n</svg>\n\r\n-------------RubyMultipartPost-109d29f9b7cbfceaed404ddcc97a912e--\r\n"
+    headers:
+      User-Agent:
+      - Mapboxkit 0.0.1.alpha
+      Content-Type:
+      - multipart/form-data; boundary=-----------RubyMultipartPost-109d29f9b7cbfceaed404ddcc97a912e
+      Content-Length:
+      - '469'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 29 Nov 2022 08:26:41 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Link
+      X-Origin:
+      - mbx-styles
+      Etag:
+      - W/"9f-Aa4b10RtSU6UA7cjtBHmHj0nNno"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 3230a3d42078a094780d1894002fcfd4.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - NRT12-C2
+      X-Amz-Cf-Id:
+      - cxshpbDBKXiqBa1oY55j82AAW3iWJMYiOVCG4zxbAVDMVM4j9s-Yvw==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"circle":{"width":200,"height":200,"x":0,"y":0,"pixelRatio":1,"visible":true},"square":{"width":200,"height":200,"x":200,"y":0,"pixelRatio":1,"visible":true}}'
+  recorded_at: Tue, 29 Nov 2022 08:26:41 GMT
+recorded_with: VCR 6.1.0

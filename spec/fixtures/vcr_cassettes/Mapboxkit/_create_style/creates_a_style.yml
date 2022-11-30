@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>?access_token=<MAPBOX_ACCESS_TOKEN>
+    body:
+      encoding: UTF-8
+      string: '{"version":8,"name":"My awesome style","metadata":{"mapbox:autocomposite":true,"mapbox:type":"template"},"sources":{"mapbox":{"url":"mapbox://mapbox.mapbox-streets-v7","type":"vector"}},"center":[0,0],"zoom":3,"sprite":"mapbox://sprites/mapbox/basic-v9","glyphs":"mapbox://fonts/mapbox/{fontstack}/{range}.pbf","layers":[]}'
+    headers:
+      User-Agent:
+      - Mapboxkit 0.0.1.alpha
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 30 Nov 2022 03:47:29 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Link
+      X-Origin:
+      - mbx-styles
+      Etag:
+      - W/"228-8Qg3P1inGpWfvjgaiIfiAFxTMhI"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 debbc427c5c43fa2029c8585e5059a5e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - NRT20-C3
+      X-Amz-Cf-Id:
+      - pUWINOJnFGyX0YMaCTR-pBTsedJd9JsSEKtIT4QR0plu--fZp98Q0A==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"version":8,"name":"My awesome style","metadata":{"mapbox:autocomposite":true,"mapbox:type":"template"},"center":[0,0],"zoom":3,"sources":{"mapbox":{"url":"mapbox://mapbox.mapbox-streets-v7","type":"vector"}},"sprite":"mapbox://sprites/<MAPBOX_USERNAME>/clb33xfon000b15kxscnf3r90/1d4iihhnz6z76gu2dqkw75ci9","glyphs":"mapbox://fonts/mapbox/{fontstack}/{range}.pbf","layers":[],"created":"2022-11-30T03:47:29.085Z","modified":"2022-11-30T03:47:29.085Z","id":"clb33xfon000b15kxscnf3r90","owner":"<MAPBOX_USERNAME>","visibility":"private","protected":false}'
+  recorded_at: Wed, 30 Nov 2022 03:47:29 GMT
+recorded_with: VCR 6.1.0

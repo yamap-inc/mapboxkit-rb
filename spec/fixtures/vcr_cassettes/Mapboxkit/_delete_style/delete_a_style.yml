@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: delete
+    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/clb33xfon000b15kxscnf3r90?access_token=<MAPBOX_ACCESS_TOKEN>
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      User-Agent:
+      - Mapboxkit 0.0.1.alpha
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 30 Nov 2022 03:52:44 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Link
+      X-Origin:
+      - mbx-styles
+      Etag:
+      - W/"a-bAsFyilMr4Ra1hIU5PyoyFRunpI"
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 49b964f897a5e1c9f9d0e182630ef7ca.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - NRT57-P2
+      X-Amz-Cf-Id:
+      - 9_2Hc0K2-dlqtlu6iFihxIlarhQwZKBfBTX2lpzDldeLfA6Q4xi23w==
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Wed, 30 Nov 2022 03:52:44 GMT
+recorded_with: VCR 6.1.0

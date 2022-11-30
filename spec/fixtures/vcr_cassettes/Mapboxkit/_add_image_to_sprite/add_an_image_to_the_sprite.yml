@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://api.mapbox.com/styles/v1/<MAPBOX_USERNAME>/clb1jxblw000014tbwhfjxy31/sprite/circle?access_token=<MAPBOX_ACCESS_TOKEN>
+    body:
+      encoding: UTF-8
+      string: |
+        <svg class="square" width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">
+          <circle cx="100" cy="100" r="100" />
+        </svg>
+    headers:
+      User-Agent:
+      - Mapboxkit 0.0.1.alpha
+      Content-Type:
+      - image/svg+xml
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 29 Nov 2022 08:26:41 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Link
+      X-Origin:
+      - mbx-styles
+      Etag:
+      - W/"9f-Aa4b10RtSU6UA7cjtBHmHj0nNno"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 03c0162ff2d0f5b5546378295e839584.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - NRT12-C2
+      X-Amz-Cf-Id:
+      - TfTkNy212Lkow9OY9kv96TEvueNlE8HJJ_EYKNAb-nSdIkYvMkOShw==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"circle":{"width":200,"height":200,"x":0,"y":0,"pixelRatio":1,"visible":true},"square":{"width":200,"height":200,"x":200,"y":0,"pixelRatio":1,"visible":true}}'
+  recorded_at: Tue, 29 Nov 2022 08:26:41 GMT
+recorded_with: VCR 6.1.0

@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.mapbox.com/?access_token=<MAPBOX_ACCESS_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mapboxkit 0.0.1.alpha
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '16'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - Express
+      Date:
+      - Mon, 28 Nov 2022 17:32:08 GMT
+      Etag:
+      - W/"10-64e0d8b5"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 37fe904b1251cdd6d02fffb4d52e247c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - NRT12-C2
+      X-Amz-Cf-Id:
+      - LSlt2u6e-bDihqWSCgWwrCVBT4HNfGpYchiJuAPoXa1Co99DMpdQPA==
+      Age:
+      - '53696'
+    body:
+      encoding: UTF-8
+      string: '{"api":"mapbox"}'
+  recorded_at: Tue, 29 Nov 2022 08:26:34 GMT
+recorded_with: VCR 6.1.0
