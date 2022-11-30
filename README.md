@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ```rb
 Mapboxkit.configure do |config|
-  config.access_token = ENV['YOUR_MAPBOX_ACCESS_TOKEN']
+  config.access_token = ENV['MAPBOX_ACCESS_TOKEN']
 end
 
 # List your map's styles
