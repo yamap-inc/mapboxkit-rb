@@ -8,7 +8,7 @@ module Mapboxkit
     # Network layer for API clients.
     #
     module Connection
-      DEFAULT_REQUEST_CONTENT_TYPE = Faraday::Request::Json::MIME_TYPE
+      DEFAULT_REQUEST_CONTENT_TYPE = 'application/json'
 
       def get(url, params = {})
         response = connection.get(url, params, content_type: nil)
