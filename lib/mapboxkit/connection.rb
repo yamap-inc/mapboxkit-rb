@@ -53,7 +53,7 @@ module Mapboxkit
 
             faraday.response(:logger) if ENV['VERBOSE'] == '1'
 
-            faraday.response(:json)
+            faraday.response(:json, content_type: %r{^application/(vnd\..+\+)?json$})
 
             faraday.response(:raise_error)
 
